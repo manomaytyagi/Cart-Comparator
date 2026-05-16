@@ -1,0 +1,27 @@
+# Venvs
+venv11/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Env secrets
+backend/.env
+.env
+
+# Uploads
+backend/uploads/
+
+# Node
+cart-frontend/node_modules/
+cart-frontend/build/
+
+# VS Code
+.vscode/
+
+# mypy
+.mypy_cache/
+
+# OS
+Thumbs.db
+.DS_Store
