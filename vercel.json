@@ -1,5 +1,5 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "cart-frontend/build",
-  "installCommand": "npm install",
+  "installCommand": "npm install"
 }
