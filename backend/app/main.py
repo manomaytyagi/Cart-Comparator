@@ -17,7 +17,11 @@ app.include_router(upload_router)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[
+        "https://cart-comparator-manomay2-hbhzd02x1-manomay-projects.vercel.app",
+        "https://cart-comparator.vercel.app",
+        "http://localhost:3000"
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
