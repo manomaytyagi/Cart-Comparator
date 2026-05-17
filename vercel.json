@@ -1,3 +1,5 @@
 {
-    "rootDirectory": "cart-frontend",
+  "buildCommand": "cd cart-frontend && npm run build",
+  "outputDirectory": "cart-frontend/build",
+  "installCommand": "cd cart-frontend && npm install"
 }
