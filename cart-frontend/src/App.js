@@ -87,7 +87,7 @@ function LoadingState() {
   useEffect(() => {
     const iv = setInterval(() => setI((x) => (x + 1) % msgs.length), 2800);
     return () => clearInterval(iv);
-  }, []);
+  }, [msgs.length]);
 
   return (
     <div style={{ textAlign: "center", padding: "56px 16px" }}>
